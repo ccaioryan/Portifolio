@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #3822F5
+}
+
+h1{
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+
+p{
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20;
+}
+
+.introducao__imagem{
+    width: 70vh;
+    height: auto;
+}
+
+.introducao{
+    box-sizing: border-box; 
+}
+
+.introducao__titulo{
+    color: white;
+}
+.introducao__apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.introducao__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
