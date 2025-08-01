@@ -3,23 +3,26 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #3822F5
+    background-color: #161D38;
+    
 }
 
 h1{
-    color: white;
+    color: #E2E8FF;
     font-family: "Exo 2", sans-serif;
+    font-size: 40px;
 }
 
 h2{
-    color: white;
+    color: #E2E8FF;
     font-family: "Exo 2", sans-serif;
+    font-size: 35px;
 }
 
 p{
-    color: white;
+    color: #E2E8FF;
     font-family: "Exo 2", sans-serif;
-    font-size: 20;
+    font-size: 17px;
 }
 
 .introducao__imagem{
@@ -29,10 +32,6 @@ p{
 
 .introducao{
     box-sizing: border-box; 
-}
-
-.introducao__titulo{
-    color: white;
 }
 .introducao__apresentacao{
     display: flex;
