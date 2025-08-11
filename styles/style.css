@@ -74,11 +74,13 @@ h2{
 p{
     color: var(--cor-letra);
     font-family: "Exo 2", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .introducao__imagem{
-    width: 70vh;
+    width: 55vh;
     height: auto;
 }
 
@@ -87,6 +89,7 @@ p{
     background-color: var(--cor-primaria);
     flex: 1;
 }
+ 
 .introducao__apresentacao{
     display: flex;
     align-items: center;
@@ -102,6 +105,22 @@ p{
     padding: 50px ;
 }
 
+.introducao__texto__titulo{
+    margin-bottom: 15px;
+}
+
+.introducao__texto__ancora{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra);
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.introducao__texto__ancora:hover{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
 .rodape{
     display: flex;
     background-color: var(--cor-letra);   
@@ -109,6 +128,64 @@ p{
 }
 
 .rodape__texto{
+    color: var(--cor-primaria);
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* ------------------ PAGINA SOBRE ------------------ */
+
+.sobre__cabecalho{
+    display: flex;
+    padding: 25px;
+    background-color: var(--cor-primaria);
+}
+
+.sobre__cabecalho__ancora{
+    font-size: 30px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra);
+
+}
+
+.sobre__cabecalho__ancora:hover{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.sobre__conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre__titulo{
+    font-size: 60px;
+    text-align: center;
+}
+
+.sobre__conteudo__texto{
+    display: flex;
+    align-items: center;
+    padding: 50px; 
+    min-height: 80vh;
+}
+
+.sobre__imagem{
+    width: 80vh;
+    height: auto;
+}
+
+.sobre__conteudo__titulo{
+    box-sizing: border-box;
+}
+
+.sobre__rodape{
+     display: flex;
+    background-color: var(--cor-letra);   
+    justify-content: center;
+}
+
+.sobre__rodape__texto{
     color: var(--cor-primaria);
     font-size: 30px;
     padding: 10px;
