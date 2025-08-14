@@ -141,14 +141,13 @@ p{
     background-color: var(--cor-primaria);
 }
 
-.sobre__cabecalho__ancora{
+.sobre__cabecalho__voltar{
     font-size: 30px;
     font-family: var(--fonte-primaria);
     color: var(--cor-letra);
-
 }
 
-.sobre__cabecalho__ancora:hover{
+.sobre__cabecalho__voltar:hover{
     color: var(--cor-secundaria);
     text-decoration: none;
 }
@@ -180,7 +179,7 @@ p{
 }
 
 .sobre__rodape{
-     display: flex;
+    display: flex;
     background-color: var(--cor-letra);   
     justify-content: center;
 }
@@ -189,4 +188,126 @@ p{
     color: var(--cor-primaria);
     font-size: 30px;
     padding: 10px;
+}
+
+/* -------------- PAGINA CONTATO ------------ */
+
+.contato__cabecalho{
+    display: flex;
+    padding: 25px;
+    background-color: var(--cor-primaria);
+}
+.contato__cabecalho__voltar{
+    font-size: 30px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra);
+}
+
+.contato__cabecalho__voltar:hover{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.contato__titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contato__subtitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.contato__subtitulo__letra{
+    color: var(--cor-secundaria);
+}
+
+ .contato__conteudo{
+    /* display: flex;
+    flex-direction: column; */
+    /* min-height: 85vh; */
+    align-items: center;
+    flex: 1;
+ }
+
+ .contato__conteudo__botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 40px;
+ }
+
+ .contato__conteudo__botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra);
+    font-size: 35px;
+    text-decoration: none;
+    border: solid 4px var(--cor-letra);
+    padding: 10px;
+    border-radius: 10px;
+    width: 25%;
+ }
+
+ .contato__conteudo__botao__2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra);
+    font-size: 35px;
+    text-decoration: none;
+    border: solid 4px var(--cor-letra);
+    padding: 10px;
+    border-radius: 10px;
+    width: 25%;
+ }
+
+ .contato__conteudo__botao:hover{
+    color: var(--cor-primaria);
+    background-color: var(--cor-letra);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contato__rodape{
+    display: flex;
+    background-color: var(--cor-letra);   
+    justify-content: center;
+}
+
+.contato__rodape__texto{
+    color: var(--cor-primaria);
+    font-size: 30px;
+    padding: 10px;   
 }
