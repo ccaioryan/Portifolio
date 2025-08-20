@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 :root{
     --cor-primaria: #222831;
     --cor-secundaria: #948979;
-    --cor-letra: #DFD0B8;
+    --cor-titulo: #CFC1AB;
+    --cor-letra: #E8D6C1;
     --cor-hover: #393E46;
+    --cor-header: #1E242B;
     --fonte-primaria: 'Exo 2', sans-serif;
+    --font-secundaria: 'Ubuntu', sans-serif;
+
 }
 
 *{
@@ -24,11 +29,12 @@
     padding: 25px;
     align-items: center;
     gap: 25px;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-header);
+    border-bottom: 2px solid var(--cor-titulo);
 }
 
 .cabecalho__titulo{
-    color: var(--cor-letra);
+    color: var(--cor-titulo);
     font-size: 35px;
     font-family: var(--fonte-primaria);
 }
@@ -39,12 +45,10 @@
     /* justify-content: space-between; */
 }
 
-
-
 .cabecalho__links__ancora{
     text-decoration: none;
     font-family: var(--fonte-primaria);
-    color: var(--cor-letra);
+    color: var(--cor-titulo);
     font-size: 20px;
 }
 
@@ -60,20 +64,20 @@ body{
 }
 
 h1{
-    color: var(--cor-letra);
+    color: var(--cor-titulo);
     font-family: "Exo 2", sans-serif;
     font-size: 40px;
 }
 
 h2{
-    color: var(--cor-letra);
+    color: var(--cor-titulo);
     font-family: "Exo 2", sans-serif;
     font-size: 35px;
 }
 
 p{
     color: var(--cor-letra);
-    font-family: "Exo 2", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 30px;
     padding-left: 6%;
     padding-right: 6%;
@@ -84,10 +88,16 @@ p{
     height: auto;
 }
 
+.div{
+    display: flex;
+    flex-direction: column;
+}
+
 .introducao{
     box-sizing: border-box; 
     background-color: var(--cor-primaria);
     flex: 1;
+    margin-top: 30px;
 }
  
 .introducao__apresentacao{
@@ -160,6 +170,7 @@ p{
 .sobre__titulo{
     font-size: 60px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .sobre__conteudo__texto{
@@ -212,11 +223,13 @@ p{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .contato__subtitulo{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .contato__subtitulo__letra{
@@ -227,8 +240,9 @@ p{
     /* display: flex;
     flex-direction: column; */
     /* min-height: 85vh; */
-    align-items: center;
+    /* align-items: center; */
     flex: 1;
+    margin-bottom: 50px;
  }
 
  .contato__conteudo__botoes{
@@ -238,6 +252,8 @@ p{
     gap: 25px;
     padding-top: 40px;
  }
+
+
 
  .contato__conteudo__botao{
     display: flex;
@@ -274,32 +290,6 @@ p{
     background-color: var(--cor-letra);
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contato__rodape{
     display: flex;
     background-color: var(--cor-letra);   
@@ -311,3 +301,18 @@ p{
     font-size: 30px;
     padding: 10px;   
 }
+
+/* ------------ PAGINA PROJETOS ------------ */
+
+
+/* .projetos__rodape{
+    display: flex;
+    background-color: var(--cor-letra);
+    justify-content: center;
+}
+
+.projeto__rodape__texto{
+    color: var(--cor-primaria);
+    font-size: 30px;
+    padding: 10px;
+} */
