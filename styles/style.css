@@ -181,7 +181,7 @@ p{
 }
 
 .sobre__imagem{
-    width: 80vh;
+    width: 50%;
     height: auto;
 }
 
@@ -316,3 +316,32 @@ p{
     font-size: 30px;
     padding: 10px;
 } */
+
+@media (max-width: 900px){
+    .introducao__apresentacao{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1600px){
+    .sobre__conteudo__texto{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .sobre__imagem{
+        width: 50%;
+    }
+
+    .contato__conteudo__botoes{
+        flex-direction: row;
+        justify-content: center;
+        gap: 50%;
+    }
+
+    .contato__conteudo__botoes__link{
+        width: 224px;
+        
+    }
+}
