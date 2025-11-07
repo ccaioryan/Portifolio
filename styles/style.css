@@ -237,12 +237,10 @@ p{
 }
 
  .contato__conteudo{
-    /* display: flex;
-    flex-direction: column; */
-    /* min-height: 85vh; */
-    /* align-items: center; */
-    flex: 1;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    /* margin-bottom: 50px;  */
  }
 
  .contato__conteudo__botoes{
@@ -251,6 +249,7 @@ p{
     align-items: center;
     gap: 25px;
     padding-top: 40px;
+    margin-bottom: 30px;
  }
 
 
@@ -267,7 +266,6 @@ p{
     border: solid 4px var(--cor-letra);
     padding: 10px;
     border-radius: 10px;
-    width: 25%;
  }
 
  .contato__conteudo__botao__2{
@@ -282,7 +280,6 @@ p{
     border: solid 4px var(--cor-letra);
     padding: 10px;
     border-radius: 10px;
-    width: 25%;
  }
 
  .contato__conteudo__botao:hover{
@@ -325,7 +322,11 @@ p{
 }
 
 @media (max-width: 1600px){
-    .sobre__conteudo__texto{
+    .contato__conteudo{
+        padding: 5%;
+    }
+
+     .sobre__conteudo__texto{
         flex-direction: column-reverse;
         gap: 50px;
     }
@@ -334,14 +335,8 @@ p{
         width: 50%;
     }
 
-    .contato__conteudo__botoes{
-        flex-direction: row;
+     .contato__conteudo__botoes{
         justify-content: center;
-        gap: 50%;
-    }
-
-    .contato__conteudo__botoes__link{
-        width: 224px;
-        
-    }
+    } 
 }
+
